@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, maximum-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<style>
+
+		.background {
+			width: 100%;
+			height: 600px;
+			background-image: url(Background-Images-1.jpg);
+			background-repeat: no-repeat;
+			font-size: 45px;
+			color: black;
+			text-align: center;
+           padding-top: 200px;
+		}
+
+	   .pic {
+	   	width: 300px;
+	   	height: 300px;
+	   	border-radius: 50%;
+	   	margin-top: 0 auto;
+	   }
+
+	   .pic-cap {
+	   	color: pink;
+	   	font-size: 30px;
+	   	font-family: ubuntu;
+
+	   }
+
+	   .btn-c{
+	   	display: flex;
+	   	flex-wrap: wrap;
+	   	margin-left: 35%;
+	   	font-size: 20px;
+	   	width: 100%;
+	   }	
+
+	   .btn1{
+	   	font-family: ubuntu;
+        margin-top: 20px;
+        color: black;
+        border-radius: 10%;
+        margin: 10px;
+        width: 100%;
+        color: black;
+        background-color: seagreen;
+
+      }
+
+	   .content{
+	   	display: flex;
+	   	flex-wrap: wrap;
+	   }
+   
+      .content1{
+      	height: 500px;
+      	width: 50%;
+      	background-color: lightblue;
+      	font-size: 35px;
+      	font-family: ubuntu, serif;
+      	color: darkblue;
+      	overflow-y: scroll;
+      
+      }
+
+      .content2{
+      	height: 500px;
+      	width: 50%;
+      	background-color: white;
+      }
+
+     .education-skills{
+     	height: 500px;
+     	width: 100%;
+     	background-image: url(Background-Images-1.jpg);
+     }
+
+     .pic1{
+     		width: 500px;
+	   	height: 400px;
+	   	border-radius: 50%;
+	   	margin-top: 0 auto;
+	   	padding: 50px;
+
+     }
+
+     .contactme{
+     	width: 100%;
+     	height: 200px;
+     	background-color: white;
+     	font-size: 30px;
+     	color: black;
+     }
+
+      .fa{
+
+      }
+     .fa:hover{
+       cursor: pointer;
+       opacity: 0.6;
+         }
+
+  span:hover{
+  	color: white;
+  	background-color: black;
+  	font-size: 20px;
+  }
+
+  .menu{
+  	font-size: 20px;
+  	background-color: lightgreen;
+  }
+
+  li:hover{
+  	opacity: .6:;
+  }
+
+  img:hover {
+  	opacity: .7;
+  }
+
+      #home{}
+      #about{} 
+      #skills{}
+      #contact{}
+      @media only screen and (max-width: 725px) {
+    .background{
+        font-size: 20px;
+    }
+     .pic{
+     	width: 200px;
+     	height: 200px;
+     }
+
+    .pic-cap{
+    	font-size: 20px;
+    }
+
+   .btn2{
+   	width:25%;
+   }
+
+   .content1{
+   	width: 100%;
+   }
+
+}
+
+	</style>
+</head>
+<body>
+<div id="home"  class="background">
+<img class="pic" src="download.png">
+ SAHIL WASAN
+<figcaption class="pic-cap">LET ME TAKE YOU INTO A DEEPER AND MORE REALISTIC EXPERIENCE OF WEB DEVELOPEMENT.</figcaption>
+<br>
+
+<div class="btn-c">
+ <a href="#home"><span class="btn1" type="button">Home</span></a>&nbsp&nbsp&nbsp
+ <a href="#about"><span class="btn1" type="button">About</span></a>&nbsp&nbsp&nbsp
+ <a href="#skills"><span class="btn1" type="button">EDUCATION</span></a>&nbsp&nbsp&nbsp
+ <a href="#contact"><span class="btn1" type="button">Contact</span></a>&nbsp&nbsp&nbsp
+ </div><br>
+
+    <div id="about" class="content">
+
+	  <div class="content1">
+	  	I am a student pursuing to be a top-notch developer. I am currently in the first year of my B.Tech at Maharaja SurajmalInstitute Of Technology. A reliable and results-driven individual who is able to learn quickly.
+I am extremely astonished by the various aspects pertaining to web development and wish to excel in all the aspects. I really enjoy coding and relate myself to the happening that dwell in this line.
+     </div>
+
+	  <div class="content2">
+	  	<img src="about.jpg">
+	  </div>
+	</div><br>
+
+<div id="skills" class="education-skills">
+<img src="edu.jpg" class="pic1">
+  <div class="dropdown" style="display: inline-block; font-family: ubuntu; font-size: 25px; cursor: pointer;">
+    <h2 class=" dropdown-toggle" data-toggle="dropdown"><strong><u>Education</u></strong>
+    <span class="caret"></span></h2>
+    <ul class="dropdown-menu">
+      <li class="menu"><a href="#">SECURED 90% in class 10th ISCE BOARD.</a></li>
+      <li class="menu"><a href="#">SECURED 91% IN CLASS 12TH IN ISC BOARD.</a></li>
+      <li class="menu"><a href="#">SECURED 83% IN B.Tech IN FIRST SEMESTER.</a></li>
+</div><br>
+
+
+
+
+
+<div id="contact" class="contactme" align="center">
+<i class="fa fa-facebook-official" style="font-size:60px;color:blue; text-align: left;"></i>&nbsp sahilwasan@gmail.com<br>
+<i class="fa fa-linkedin-square" style="font-size:60px;color:black; text-align: left;"></i>&nbsp www.linkedin.com/in/sahil-wasan-b51908151<br>
+<i class="fa fa-google"  style="font-size:60px;color:maroon; text-align: left;"></i>&nbsp sahilwasan000@gmail.com<br>
+
+	
+</div>
+</div>
+
+</body>
+</html>
